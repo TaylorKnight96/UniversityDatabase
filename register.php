@@ -15,10 +15,6 @@
 		<?php include('errors.php'); ?>
 
 		<div class="input-group">
-			<label>Username</label>
-			<input type="text" name="username" value="<?php echo $username; ?>">
-		</div>
-		<div class="input-group">
 			<label>First Name</label>
 			<input type="text" name="first_name" value="<?php echo $firstName; ?>">
 		</div>
