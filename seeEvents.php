@@ -32,11 +32,11 @@
         $result = mysqli_query($conn, $sql) or die("bad query");
 
 
-        echo"<table border='1' width='500px'>";
-        echo"<tr><td><B>Name of Event</B></td><td><B>Start time</B></td><td><B>Description</B></td></tr>";
+        echo"<table border='1' width='600px'>";
+        echo"<tr><td><B>Name of Event</B></td><td><B>Start time</B></td><td><B>Description</B></td><td><B>Accessibility</B></td></tr>";
         while($row = mysqli_fetch_assoc($result))
         {
-          echo"<tr><td>{$row['name']}</td><td>{$row['start_time']}</td><td>{$row['description']}</td></tr>";
+          echo"<tr><td>{$row['name']}</td><td>{$row['start_time']}</td><td>{$row['description']}</td><td>{$row['accessibility']}</td></tr>";
         }
         echo"</table>";
 
