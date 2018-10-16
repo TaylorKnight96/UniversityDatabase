@@ -1,4 +1,6 @@
-<?php include('server.php') ?>
+<?php
+	require('server.php') 
+?>
 <!DOCTYPE html>
 <html>
 <head>
